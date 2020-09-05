@@ -13,7 +13,7 @@ Password:	<input type="password" name="password"><br>
 <br><br>
 <?php
 echo $_POST[name];
-echo $_POST[password];
+echo $_POST[password]; /* POST methode more secure */
 ?>
 </body>
 </html>
